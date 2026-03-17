@@ -1,7 +1,5 @@
 # Project C: Cohort & Retention Deep Dive
 
-> **Interactive charts?** View this notebook on [nbviewer](https://nbviewer.org/github/tobibolu/data-analyst-portfolio/blob/main/project-c-cohort-retention/analysis.ipynb) — GitHub strips JavaScript from Plotly charts.
-
 ## Overview
 
 Customer lifecycle analytics on the Olist Brazilian e-commerce dataset, covering cohort-based retention, RFM segmentation, lifetime value estimation, and churn risk flagging. Complements Project A's SQL analytics by shifting from transaction-level queries to customer-level behavioral modeling.
@@ -28,7 +26,7 @@ An interactive **Tableau Public** dashboard is published alongside the notebook 
 
 ## Tableau Public Dashboard
 
-**[View the dashboard →](https://public.tableau.com/views/OlistE-CommerceCohortRetentionAnalytics/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+**[View the dashboard →](https://public.tableau.com/app/profile/tobi.bolu/viz/OlistE-CommerceCohortRetentionAnalytics/CohortRetentionHeatmap)**
 
 The Tableau story includes:
 1. **Cohort Retention** — heatmap and retention curves by acquisition month
@@ -48,7 +46,7 @@ The Tableau story includes:
 
 ## Tools
 
-Python (Pandas, Plotly), Tableau Public, Kaggle API (kagglehub)
+Python (Pandas, Matplotlib, Seaborn), Tableau Public, Streamlit, Kaggle API (kagglehub)
 
 ## How to Run
 

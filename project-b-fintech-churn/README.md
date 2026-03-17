@@ -34,7 +34,7 @@ project-b-fintech-churn/
 
 ## Notebooks
 
-### [01 EDA & Cleaning](https://nbviewer.org/github/tobibolu/data-analyst-portfolio/blob/main/project-b-fintech-churn/01_eda_cleaning.ipynb)
+### 01 EDA & Cleaning
 
 **Purpose:** Explore data quality, univariate/bivariate distributions, and engineer features.
 
@@ -56,7 +56,7 @@ project-b-fintech-churn/
 
 ---
 
-### [02 A/B Test Analysis](https://nbviewer.org/github/tobibolu/data-analyst-portfolio/blob/main/project-b-fintech-churn/02_ab_test_analysis.ipynb)
+### 02 A/B Test Analysis
 
 **Purpose:** Design and simulate an SMS re-engagement campaign targeting at-risk customers.
 
@@ -77,7 +77,7 @@ project-b-fintech-churn/
 
 ---
 
-### [03 Churn Model](https://nbviewer.org/github/tobibolu/data-analyst-portfolio/blob/main/project-b-fintech-churn/03_churn_model.ipynb)
+### 03 Churn Model
 
 **Purpose:** Build logistic regression model to predict churn and score customer risk.
 
@@ -162,7 +162,7 @@ streamlit run app.py
 
 - **Data:** pandas, numpy
 - **Modeling:** scikit-learn, scipy
-- **Visualization:** Plotly
+- **Visualization:** Matplotlib, Seaborn
 - **Dashboard:** Streamlit
 - **Data Source:** Kaggle Hub
 

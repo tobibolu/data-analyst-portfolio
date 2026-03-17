@@ -1,7 +1,5 @@
 # Brazilian E-Commerce SQL Analytics Deep Dive
 
-> **Interactive charts not loading?** [View this notebook on nbviewer](https://nbviewer.org/github/tobibolu/data-analyst-portfolio/blob/main/project-a-sql-ecommerce/analysis.ipynb) for fully rendered Plotly visualizations.
-
 An advanced SQL analysis of 96K+ delivered orders (R\$15.4M in revenue) from the Olist Brazilian e-commerce marketplace, exploring revenue performance, customer retention, seller quality, delivery operations, and customer lifetime value.
 
 Every insight is generated through SQL queries executed via [DuckDB](https://duckdb.org/), demonstrating proficiency in CTEs, window functions (LAG, NTILE, PERCENT_RANK, SUM OVER), cohort analysis, and business-oriented data storytelling.
@@ -43,7 +41,7 @@ Every insight is generated through SQL queries executed via [DuckDB](https://duc
 ## How to Run
 
 ```bash
-pip install duckdb kagglehub plotly pandas jupyter
+pip install duckdb kagglehub matplotlib seaborn pandas jupyter
 ```
 
 Open `analysis.ipynb` in Jupyter and run all cells. The notebook downloads the dataset automatically via `kagglehub` (requires a [Kaggle API key](https://www.kaggle.com/docs/api) at `~/.kaggle/kaggle.json`).
@@ -52,7 +50,7 @@ Standalone SQL queries are available in the `queries/` folder for reference or a
 
 ## Tools
 
-Python, DuckDB, Plotly, Pandas, Jupyter
+Python, DuckDB, Matplotlib, Seaborn, Pandas, Jupyter
 
 ## Author
 
