@@ -8,31 +8,31 @@ An interactive **Tableau Public** dashboard is published alongside the notebook 
 
 ## Dataset
 
-[Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — same dataset as Project A, reanalyzed from a customer lifecycle perspective.
+[Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Same dataset as Project A, reanalyzed from a customer lifecycle perspective.
 
 - ~96K delivered orders
 - ~93K unique customers
-- Date range: Oct 2016 – Aug 2018
+- Date range: Oct 2016 to Aug 2018
 
 ## Key Findings
 
-**Cohort Retention:** Average Month 1 retention is in the low single digits, dropping below 1% by Month 3. This is structural — Olist operates as a marketplace aggregator where customers don't realize they purchased through Olist. The pattern is consistent across all acquisition cohorts.
+**Cohort Retention:** Average Month 1 retention is in the low single digits, dropping below 1% by Month 3. This is structural. Olist operates as a marketplace aggregator where customers don't realize they purchased through Olist. The pattern is consistent across all acquisition cohorts.
 
 **RFM Segmentation:** The vast majority of customers fall into "Lost" or "About to Sleep" segments (single purchase, long ago). The small Champions and Loyal Customers segments drive an outsized share of revenue relative to headcount.
 
-**Lifetime Value:** Smaller, remote states (PB, AC, RO) show the highest per-customer LTV — likely inflated by freight costs. Sao Paulo, the highest-volume state, has one of the lowest per-customer LTV figures. Retention spend per customer should vary by geography.
+**Lifetime Value:** Smaller, remote states (PB, AC, RO) show the highest per-customer LTV, likely inflated by freight costs. Sao Paulo, the highest-volume state, has one of the lowest per-customer LTV figures. Retention spend per customer should vary by geography.
 
-**Churn Risk:** "At Risk (Repeat)" customers are the highest-priority intervention group — they've already demonstrated willingness to repurchase and have since gone quiet. "Churned (One-time)" is the largest segment but hardest to reactivate.
+**Churn Risk:** "At Risk (Repeat)" customers are the highest-priority intervention group. They've already shown willingness to repurchase and have since gone quiet. "Churned (One-time)" is the largest segment but hardest to reactivate.
 
 ## Tableau Public Dashboard
 
 **[View the dashboard →](https://public.tableau.com/app/profile/tobi.bolu/viz/OlistE-CommerceCohortRetentionAnalytics/CohortRetentionHeatmap)**
 
 The Tableau story includes:
-1. **Cohort Retention** — heatmap and retention curves by acquisition month
-2. **RFM Segments** — customer distribution, segment profiles, geographic breakdown
-3. **LTV Analysis** — lifetime value by segment, state, and cohort
-4. **Churn Risk** — risk tier distribution, at-risk customer profiles, state-level patterns
+1. **Cohort Retention**: heatmap and retention curves by acquisition month
+2. **RFM Segments**: customer distribution, segment profiles, geographic breakdown
+3. **LTV Analysis**: lifetime value by segment, state, and cohort
+4. **Churn Risk**: risk tier distribution, at-risk customer profiles, state-level patterns
 
 ## Files
 
@@ -53,7 +53,7 @@ Python (Pandas, Matplotlib, Seaborn), Tableau Public, Streamlit, Kaggle API (kag
 ```bash
 cd project-c-cohort-retention
 jupyter notebook analysis.ipynb
-# Run all cells — generates 4 Tableau-ready CSV exports
+# Run all cells. Generates 4 Tableau-ready CSV exports
 ```
 
 ---

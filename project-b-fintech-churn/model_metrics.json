@@ -1,0 +1,73 @@
+{
+  "status": "audit_not_deployment_ready",
+  "source_rows": 974,
+  "unique_customers": 496,
+  "training_customers": 372,
+  "holdout_customers": 124,
+  "overall_churn_prevalence": 0.29435483870967744,
+  "cv": {
+    "roc_auc": {
+      "mean": 0.4876698772925188,
+      "std": 0.06162657605950422
+    },
+    "average_precision": {
+      "mean": 0.32271965016069465,
+      "std": 0.04788133081143505
+    },
+    "precision": {
+      "mean": 0.29213702963702964,
+      "std": 0.030847117483776245
+    },
+    "recall": {
+      "mean": 0.44545454545454544,
+      "std": 0.06741998624632418
+    },
+    "f1": {
+      "mean": 0.35186101071007797,
+      "std": 0.03991713870436477
+    }
+  },
+  "threshold_policy": {
+    "selected_threshold": 0.11,
+    "false_negative_cost": 5,
+    "false_positive_cost": 1,
+    "selection_data": "out-of-fold predictions from training customers only",
+    "costs_are_illustrative": true
+  },
+  "holdout_default_0_50": {
+    "threshold": 0.5,
+    "roc_auc": 0.46464646464646464,
+    "average_precision": 0.2697257613732515,
+    "accuracy": 0.5,
+    "precision": 0.21739130434782608,
+    "recall": 0.2777777777777778,
+    "f1": 0.24390243902439024,
+    "tn": 52,
+    "fp": 36,
+    "fn": 26,
+    "tp": 10,
+    "scenario_cost": 166
+  },
+  "holdout_cost_selected": {
+    "threshold": 0.11,
+    "roc_auc": 0.46464646464646464,
+    "average_precision": 0.2697257613732515,
+    "accuracy": 0.2903225806451613,
+    "precision": 0.2903225806451613,
+    "recall": 1.0,
+    "f1": 0.45000000000000007,
+    "tn": 0,
+    "fp": 88,
+    "fn": 0,
+    "tp": 36,
+    "scenario_cost": 88
+  },
+  "excluded_fields": [
+    "Customer ID",
+    "Full Name",
+    "Customer Churn Status",
+    "Reasons for Churn",
+    "Satisfaction Rate",
+    "Customer Review"
+  ]
+}
