@@ -1,4 +1,4 @@
-# MTN Nigeria Customer Churn — Leakage-Safe Model Audit
+# MTN Nigeria Customer Churn: Leakage-Safe Model Audit
 
 **Author:** Tobi Bolu · [GitHub](https://github.com/tobibolu) · [LinkedIn](https://www.linkedin.com/in/tobibolu/)
 
@@ -6,7 +6,7 @@
 
 This project explores an MTN Nigeria customer-churn dataset, simulates the design of a retention experiment, and audits whether the available data can support pre-churn prediction.
 
-The most important result is methodological: an earlier version reported ROC AUC above 0.92, but that score was invalid because it included `Reasons for Churn`—a post-outcome field—and split repeated records from the same customer across train and test. The rebuilt workflow withdraws that claim, aggregates to customer level, and evaluates only temporally defensible features.
+The most important result is methodological. An earlier version reported ROC AUC above 0.92, but that score was invalid because it included `Reasons for Churn`, a post-outcome field, and split repeated records from the same customer across train and test. The rebuilt workflow withdraws that claim, aggregates to customer level, and evaluates only temporally defensible features.
 
 The corrected result is intentionally honest: **the remaining data does not support a useful churn-ranking model**. That finding is more actionable than an inflated metric because it identifies the real next requirement: timestamped behavioural data collected before churn.
 

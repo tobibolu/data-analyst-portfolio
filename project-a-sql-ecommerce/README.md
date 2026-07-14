@@ -6,7 +6,7 @@ Every insight is generated through SQL queries executed via [DuckDB](https://duc
 
 ## Dataset
 
-[Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 9 linked tables covering 99K orders, 93K customers, 3K sellers, 33K products, 100K payments, and 99K reviews for a Brazilian e-commerce marketplace (Sept 2016 to Aug 2018).
+The [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) has 9 linked tables covering 99K orders, 93K customers, 3K sellers, 33K products, 100K payments, and 99K reviews for a Brazilian e-commerce marketplace (Sept 2016 to Aug 2018).
 
 ## Key Findings
 
@@ -54,4 +54,4 @@ Python, DuckDB, Matplotlib, Seaborn, Pandas, Jupyter
 
 ## Author
 
-**Tobi Bolu** — [LinkedIn](https://www.linkedin.com/in/tobibolu/) | [GitHub](https://github.com/tobibolu)
+**Tobi Bolu** · [LinkedIn](https://www.linkedin.com/in/tobibolu/) | [GitHub](https://github.com/tobibolu)
