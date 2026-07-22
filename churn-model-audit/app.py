@@ -48,7 +48,7 @@ threshold_policy = metrics["threshold_policy"]
 st.error(
     "**Audit result: not deployment-ready.** After removing post-outcome fields and "
     "preventing repeated customers from crossing the split, holdout ROC AUC is "
-    f"{holdout['roc_auc']:.3f}. The exported scores below are exploratory—not validated "
+    f"{holdout['roc_auc']:.3f}. The exported scores below are exploratory, not validated "
     "retention decisions."
 )
 

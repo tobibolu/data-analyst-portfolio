@@ -23,7 +23,7 @@ Multiple source rows belong to the same customer and can contain different plan 
 ## Repository structure
 
 ```text
-project-b-fintech-churn/
+churn-model-audit/
 ├── 01_eda_cleaning.ipynb       # Exploration and source-data preparation
 ├── 02_ab_test_analysis.ipynb   # Simulated retention-experiment design
 ├── 03_churn_model.ipynb        # Executed leakage-safe model audit

@@ -196,7 +196,7 @@ st.plotly_chart(fig, use_container_width=True)
 # ── Priority Intervention List ──
 st.divider()
 st.subheader("🚨 Priority Intervention List")
-st.markdown("Repeat customers who are at risk or recently churned — highest ROI for retention outreach.")
+st.markdown("Repeat customers who are at risk or recently churned, the highest ROI for retention outreach.")
 
 priority = df_filtered[
     df_filtered['churn_risk'].isin(['At Risk (Repeat)', 'Churned (Was Repeat)'])

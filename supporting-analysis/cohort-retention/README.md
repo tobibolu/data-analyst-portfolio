@@ -51,7 +51,7 @@ Python (Pandas, Matplotlib, Seaborn), Tableau Public, Streamlit, Kaggle API (kag
 ## How to Run
 
 ```bash
-cd project-c-cohort-retention
+cd supporting-analysis/cohort-retention
 jupyter notebook analysis.ipynb
 # Run all cells. Generates 4 Tableau-ready CSV exports
 ```

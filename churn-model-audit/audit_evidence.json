@@ -1,0 +1,14 @@
+{
+  "decision": "audit_not_deployment_ready",
+  "source_rows": 974,
+  "unique_customers": 496,
+  "training_customers": 372,
+  "holdout_customers": 124,
+  "withdrawn_earlier_auc": "above 0.92",
+  "cv_auc_mean": 0.4876698772925188,
+  "cv_auc_std": 0.06162657605950422,
+  "holdout_auc": 0.46464646464646464,
+  "holdout_average_precision": 0.2697257613732515,
+  "selected_threshold": 0.11,
+  "holdout_customers_flagged": 124
+}
